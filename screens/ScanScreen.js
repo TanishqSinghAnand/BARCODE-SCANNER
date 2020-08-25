@@ -53,7 +53,7 @@ export default class ScanScreen extends React.Component{
                             :"Request Camera Permission"
                         }</Text>
                         <TouchableOpacity onPress={this.getCameraPermission } 
-                        style={styles.sb}><Text style={styles.dt}>Scan QR code
+                        style={styles.sb}><Text style={styles.dt}>Scan Bar Code
                         </Text></TouchableOpacity>
                     </View>
                 )
